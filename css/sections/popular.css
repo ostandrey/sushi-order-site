@@ -32,7 +32,7 @@
   gap: 24px;
 }
 
-.popular-foods__filter-btn {
+.popular-foods__filters-btn {
   padding: 10px 20px;
 
   display: flex;
@@ -52,18 +52,18 @@
   cursor: pointer;
 }
 
-.popular-foods__filter-btn img {
+.popular-foods__filters-btn img {
   width: 36px;
   height: 36px;
   object-fit: contain;
 }
 
-.popular-foods__filter-btn.active {
+.popular-foods__filters-btn.active {
   background: var(--color-white);
   color: var(--primary-color);
 }
 
-.popular-foods__filter-btn:hover {
+.popular-foods__filters-btn:hover {
   background: var(--color-white);
   color: var(--primary-color);
 }
