@@ -1,3 +1,5 @@
+import handleBurger from './burger';
+
 // import images as relative image path won't work with vite/vercel.
 import check from '../assets/check.svg';
 import star from '../assets/star.svg';
@@ -14,9 +16,7 @@ AOS.init({
   offset: 100,
 });
 
-if (document.readyState == 'complete') {
-  AOS.refresh();
-}
+handleBurger();
 
 const trendingSushis = [
   'Make Sushi',
